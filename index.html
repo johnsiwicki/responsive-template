@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/foundation.css" />
 <link rel="stylesheet" href="css/style.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 <body>
  
@@ -15,15 +16,14 @@
  
   <div class="row">
     <div class="large-12 columns">
-      <div class="nav-bar right">
-       <ul class="button-group">
-         <li><a href="#" class="button">Link 1</a></li>
-         <li><a href="#" class="button">Link 2</a></li>
-         <li><a href="#" class="button">Link 3</a></li>
-         <li><a href="#" class="button">Link 4</a></li>
-        </ul>
+              <img src="http://placehold.it/340x150" style="padding:5px;">
+      <div class="nav-bar right"> 
+    <div class="top-contact">
+        <div class="tagline">Free Estimates - <a href="/free-estimate.html">Click</a> or Call Now</div>
+        <div class="phonehead">1-800-555-5555</div>
+        </div>
       </div>
-      <img src="http://placehold.it/340x150">
+
       <hr />
     </div>
   </div>
@@ -34,7 +34,7 @@
    <div class="row">
     <div class="large-12 columns">
 
-<img src="http://placehold.it/960x350">
+<img src="http://placehold.it/980x350">
 </div>
 </div>
 
@@ -42,31 +42,34 @@
    <div class="row">
     <div class="large-12 columns">
 <nav class="top-bar" style="">
-      <ul class="title-area">
-        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
+          <ul class="title-area">
+            <!-- Title Area -->
+            <li class="name">
 
-      
-    <section class="top-bar-section">
-        <!-- Right Nav Section -->
-        <ul class="right">
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
+          </ul>
+
+          
+        <section class="top-bar-section">
+        <ul>
           <li class="divider"></li>
-          <li class=""><a href="">Features</a></li>
+          <li class=""><a href="">Home</a></li>
           <li class="divider"></li>
-          <li class=""><a href="">Add-ons</a></li>
+          <li class=""><a href="">Service 1</a></li>
           <li class="divider"></li>
-          <li class=""><a href="">Case Studies</a></li>
+          <li class=""><a href="">Service 2</a></li>
           <li class="divider"></li>
-          <li class=""><a href="">Docs</a></li>
+          <li class=""><a href="">Service 3</a></li>
           <li class="divider"></li>
-          <li class=""><a href="">Training</a></li>
+          <li class=""><a href="">Service 4</a></li>
           <li class="divider"></li>
           <li class="has-form">
             <a href="" class="button">Free Estimate</a>
           </li>
         </ul>
-      </section></nav>
+          </section></nav>
 </div>
 </div>
       <!--End Nav-->
@@ -100,8 +103,7 @@
  
       <article>
  
-        <h3><a href="#">Blog Post Title</a></h3>
-        <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
+        <h1><a href="#">Title 1</a></h1>
  
         <div class="row">
           <div class="large-6 columns">
@@ -123,18 +125,19 @@
  
       <article>
  
-        <h3><a href="#">Blog Post Title</a></h3>
-        <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
+        <h2><a href="#">Title 2</a></h2>
  
-        <div class="row">
-          <div class="large-6 columns">
+ 
             <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
             <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-          </div>
-          <div class="large-6 columns">
-            <img src="http://placehold.it/400x240&text=[img]" />
-          </div>
-        </div>
+           
+
+        <ul class="small-block-grid-2 large-block-grid-4">
+          <li><img class="th" src="http://placehold.it/400x240&amp;text=[img]"></li>
+          <li><img class="th" src="http://placehold.it/400x240&amp;text=[img]"></li>
+          <li><img class="th" src="http://placehold.it/400x240&amp;text=[img]"></li>
+          <li><img class="th" src="http://placehold.it/400x240&amp;text=[img]"></li>
+        </ul>
  
         <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
  
@@ -175,6 +178,9 @@
   </footer>
 </div>
   <script src="js/foundation.min.js"></script>
+  <script>
+  $(document).foundation();
+</script>
 </body>
 </html>
 

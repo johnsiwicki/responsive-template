@@ -1,0 +1,31 @@
+.top-contact {
+    color: #074368;
+    float: right;
+    height: 65px;
+    position: relative;
+  width: 362px;
+    margin:40px 0 8px 0;
+}
+.tagline {
+    color: #373737;
+    font:  19px/20px Verdana, Arial, Helvetica, sans-serif;
+    overflow: visible;
+    padding: 8px 0 0 22px;
+    position: absolute;
+}
+
+.tagline a {
+    color: #10548E;
+}
+
+.phonehead, .offline {
+font: bold 35px/36px Verdana, Arial, Helvetica, sans-serif;
+height: 40px;
+left: 13px;
+padding: 0 0 0 5px;
+position: absolute;
+text-align: center;
+top: 30px;
+color: #074368;
+display: block;
+}
