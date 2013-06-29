@@ -1,4 +1,4 @@
 responsive-template
 ===================
 
-Responsive Template using http://purecss.io/
+Responsive Template using Foundation
